@@ -73,7 +73,7 @@ class ProgramSelector(QWidget):
 
         # Create a combo box (dropdown list)
         self.comboBox = QComboBox(self)
-        values = ["", "IBM", "SAP", "VBs", "WEB"]  
+        values = ["", "IBM", "SAP", "WEB"]  
         self.comboBox.addItems(values)
         self.comboBox.currentTextChanged.connect(self.updateClassComboBox)
 
